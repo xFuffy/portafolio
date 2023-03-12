@@ -1,0 +1,9 @@
+.aboutme{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

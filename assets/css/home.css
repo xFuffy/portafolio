@@ -1,0 +1,35 @@
+.home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home__containter{
+    flex-direction: column;
+}
+
+.home__profile{
+    height: 15.5rem;
+    border-radius: 50%;
+    margin-bottom: 1.25rem;
+}
+
+.home__introduction{
+    font-size: 1.35rem;
+    line-height: 2rem;
+}
+
+.home__title{
+    font-size: 1.75rem;
+    font-weight: bold;
+    padding: 0.5rem;
+}
+
+.home__description{
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+}
