@@ -2,9 +2,8 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
     justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
@@ -20,6 +19,7 @@
 
 .aboutme__description{
     font-size: 1rem;
+    padding: 1rem 0;
 }
 
 .aboutme__description h2{
@@ -28,7 +28,7 @@
 }
 
 .aboutme__description p{
-    padding: 0.75rem 0;
+    padding: 1rem 0;
     font-size: 1.1rem;
     line-height: 1.5rem;
     text-align: left;
@@ -52,7 +52,7 @@
 }
 
 .aboutme__skills{
-    padding: 3rem 0 3rem 0;
+    padding: 2.5rem 0 1rem 0;
     display: block;
 }
 
@@ -81,13 +81,13 @@
 }
 
 .aboutme__hobbies{
-    padding: 1.5rem 0 0 0;
+    padding: 1rem 0 0 0;
     display: block;
 }
 
 .hobbies__title{
     font-size: 1.5rem;
-    padding: 1rem 0 2rem 0;
+    padding: 0.5rem 0 1.5rem 0;
 }
 
 .hobbies__item-container{

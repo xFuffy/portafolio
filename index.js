@@ -25,6 +25,7 @@ let observer = new IntersectionObserver(function (entries, self) {
     entries.forEach((entry) => {
     if (entry.isIntersecting) {
         intersectionHandler(entry);
+        console.log(entry);
         }
     });
 }, config);
@@ -35,7 +36,7 @@ sections.forEach((section) => {
 
 function intersectionHandler(entry) {
     const id = entry.target.id;
-    const currentlyActive = document.querySelector(".navbar__links  .active");
+    const currentlyActive = document.querySelector(".navbar__links .active");
     const shouldBeActive = document.querySelector(
     ".navbar__links [data-ref=" + id + "]"
     );
