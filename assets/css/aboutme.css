@@ -7,3 +7,110 @@
     align-items: center;
     text-align: center;
 }
+
+.aboutme__container{
+    flex-direction: column;
+}
+
+.aboutme__title{
+    font-size: 2.25rem;
+    padding: 1.5rem 0;
+    text-align: left;
+}
+
+.aboutme__description{
+    font-size: 1rem;
+}
+
+.aboutme__description h2{
+    font-size: 1.5rem;
+    padding: 0 0 1.25rem 0;
+}
+
+.aboutme__description p{
+    padding: 0.75rem 0;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.cv__download{
+    font-size: 1.2rem;
+    padding: 1rem;
+    align-items:start;
+    background: #2b43d1;
+    color: white;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.55);
+    -moz-box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.55);
+    border: none;
+}
+
+.cv__download a{
+    color: white;
+    text-decoration: none;
+}
+
+.aboutme__skills{
+    padding: 3rem 0 3rem 0;
+    display: block;
+}
+
+.skills__title{
+    font-size: 1.5rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.skills__item-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills__item{
+    padding: 0.5rem 1rem 1.5rem 0;
+}
+
+.skills__name{
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    font-style: oblique;
+}
+
+.aboutme__hobbies{
+    padding: 1.5rem 0 0 0;
+    display: block;
+}
+
+.hobbies__title{
+    font-size: 1.5rem;
+    padding: 1rem 0 2rem 0;
+}
+
+.hobbies__item-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hobbies__item{
+    padding: 0.5rem 1rem 1.5rem 0;
+}
+
+.item__img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.hobbies__name{
+    padding: 0.5rem 0;
+    font-size: 1.1rem;
+    font-style: oblique;
+}
+

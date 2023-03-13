@@ -3,7 +3,128 @@
     display: flex;
     flex-direction: column;
     padding: 1.5rem;
-    justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.proyects__container{
+    flex-direction: column;
+}
+
+.proyects__title{
+    font-size: 2.25rem;
+    padding-bottom: 1.5rem;
+    text-align: left;
+}
+
+.proyects__subtitle{
+    font-size: 1rem;
+}
+
+.proyects__item-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.proyects__item{
+    flex: 1 1 auto;
+    height: auto;
+    box-shadow: 0px 4px 7px rgba(0,0,0,.5);
+    cursor: pointer;
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.proyects__item-img{
+    width: 100%;
+    height: 100%;
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+}
+
+.proyects__description{
+    position: absolute;
+    top:0px;
+    left:0px;
+    background-color: rgba(255,255,255,.7);
+    width:100%;
+    height:100%;
+    transition: all .7s ease-in-out;
+    box-sizing: border-box;
+    clip-path: circle(0% at 100% 100%);
+    padding: 1rem;
+}
+
+.proyects__item:hover .proyects__description{
+    left:0px;
+    transition: all .7s ease-in-out;
+    clip-path: circle(75%);
+}
+
+.proyects__item:hover{
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    box-shadow: 0px 2px 3px rgba(0,0,0,.3);
+    transform: scale(.97);
+}
+
+.proyects__item:hover .proyects__item-img{
+    transition: all .5s cubic-bezier(.8,.5,.2,1.4);
+    transform: scale(1.6) rotate(20deg);
+    filter: blur(3px);
+}
+
+.proyects__item h1{
+    color: #ff3838;
+    letter-spacing: 1px;
+    margin: 0px;
+    padding: 1rem;
+    font-size: 1.25rem;
+}
+
+.proyects__item p{
+    line-height: 1.1rem;
+    height: auto;
+    font-size: 1rem;
+}
+
+.btn__container{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.75rem 0;
+}
+
+.proyects__btn{
+    width: 7.5rem;
+    height: 2.5rem;
+    cursor: pointer;
+    border-style: none;
+    background-color: #ff3838;
+    color:#fff;
+    font-size: 1.2rem;
+    outline: none;
+    box-shadow: 0px 2px 3px rgba(0,0,0,.4);
+    transition: all .5s ease-in-out;
+    text-align: center;
+    align-items: center;
+
+}
+
+.proyects__btn:hover{
+    transform: scale(.95) translateX(-5px);
+    transition: all .5s ease-in-out;
+}
+
+.githubPage-link{
+    text-decoration: none;
+    color: white;
+}
+
+.github-link{
+    text-decoration: none;
+    color: white;
 }

@@ -19,6 +19,8 @@
 }
 
 .home__introduction{
+    display: flex;
+    flex-direction: column;
     font-size: 1.35rem;
     line-height: 2rem;
 }
