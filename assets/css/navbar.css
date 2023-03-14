@@ -8,7 +8,7 @@
 
 .navbar{
     position: fixed;
-    background: black;
+    background: transparent;
     display: flex;
     justify-content: space-between;
     height: 3.75rem;
@@ -68,7 +68,7 @@
 }
 
 .navbar__link a{
-    color: #8e8e8e;
+    color: white;
     transition: color 0.5s;
 }
 
@@ -83,11 +83,11 @@ a{
 }
 
 a:hover{
-    color: #bbbbbb;
+    color: orangered;
 }
 
 .active a{
-    color: red;
+    color: orangered;
 }
 
 @media screen and (min-width: 678px){

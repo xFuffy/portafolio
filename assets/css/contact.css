@@ -40,6 +40,10 @@
     color: black;
 }
 
+.contact__item:hover{
+    background: lightgray;
+}
+
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 678px){
