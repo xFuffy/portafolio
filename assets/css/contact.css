@@ -1,5 +1,4 @@
 .contact{
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     padding: 0 1.5rem;
@@ -39,4 +38,29 @@
     font-size: 1.1rem;
     font-style: oblique;
     color: black;
+}
+
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 678px){
+    .contact{
+        min-height: none;
+    }
+    .contact__title{
+        font-size: 3rem;
+        padding: 1.75rem 1rem;
+    }
+    .contact__container-items{
+        flex-direction: row;
+        gap: 7rem;
+        padding-bottom: 4rem;
+    }
+    .contact__item{
+        width: 8rem;
+        height: 8rem;
+        margin: 0;
+    }
+    .contact__name{
+        font-size: 1.5rem;
+    }
 }

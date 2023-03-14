@@ -8,7 +8,7 @@ const config = {
 };
 
 function handleLlinks() {
-    if (window.innerWidth <= 991) {
+    if (window.innerWidth <= 678) {
         links.classList.toggle("visible");
     }
 }

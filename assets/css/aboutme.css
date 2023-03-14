@@ -1,7 +1,6 @@
 .aboutme{
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
     padding: 0 1.5rem;
     justify-content: center;
     text-align: center;
@@ -17,18 +16,17 @@
     text-align: left;
 }
 
-.aboutme__description{
-    font-size: 1rem;
+.aboutme__description{  
     padding: 1rem 0;
 }
 
 .aboutme__description h2{
     font-size: 1.5rem;
-    padding: 0 0 1.25rem 0;
+    padding: 0 0 1rem 0;
 }
 
 .aboutme__description p{
-    padding: 1rem 0;
+    padding: 0.75rem 0;
     font-size: 1.1rem;
     line-height: 1.5rem;
     text-align: left;
@@ -52,7 +50,7 @@
 }
 
 .aboutme__skills{
-    padding: 2.5rem 0 1rem 0;
+    padding: 1rem 0;
     display: block;
 }
 
@@ -68,6 +66,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 2rem;
 }
 
 .skills__item{
@@ -114,3 +113,41 @@
     font-style: oblique;
 }
 
+/*MEDIA QUERIES*/
+
+@media screen and (min-width: 678px){
+    .aboutme__title{
+        font-size: 3rem;
+        padding: 1.75rem 1rem;
+    }
+    .aboutme__description{
+        padding: 1rem 2rem;
+    }
+    .aboutme__description h2{
+        font-size: 2rem;
+    }
+    .aboutme__description p{
+        padding: 1rem;
+        font-size: 1.3rem;
+        line-height: 2rem;
+    }
+    .aboutme__btn-container{
+        padding: 1rem 0;
+    }
+    .cv__download{
+        cursor: pointer;
+    }
+    .aboutme__skills{
+        padding: 0;
+    }
+    .skills__title{
+        font-size: 2.1rem;
+        padding: 1.5rem 0;
+    }
+    .skills__item-container{
+        gap: 1rem;
+    }
+    .skills__name{
+        font-size: 1.5rem;
+    }
+}
