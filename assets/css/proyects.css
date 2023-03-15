@@ -149,11 +149,8 @@
     .proyects__subtitle{
         font-size: 1.25rem;
     }
-    .proyects__item-container{
-        padding: 2.5rem;
-    }
     .proyects__item{
-        width: 30%;
+        width: 40%;
         height: 30rem;
         position: unset;
         margin: 0 1rem;
@@ -173,10 +170,10 @@
         display: flex;
         position: fixed;
         bottom: 0;
-        padding: 2rem 0;
+        padding: 1rem 0;
         align-items: center;
         justify-content: space-around;
-        width: 100%;
+        width: calc(100% - 2rem);
     }
     .proyects__btn{
         width: 6.5rem;
