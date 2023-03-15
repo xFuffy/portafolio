@@ -1,7 +1,7 @@
 .contact{
     display: flex;
     flex-direction: column;
-    padding: 0 1.5rem;
+    padding: 2rem;
     text-align: center;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .contact__title{
-    font-size: 2.25rem;
+    font-size: 2rem;
     padding: 1.5rem 0;
     text-align: left;
 }
@@ -49,9 +49,10 @@
 @media screen and (min-width: 678px){
     .contact{
         min-height: none;
+        padding: 1.5rem 4rem;
     }
     .contact__title{
-        font-size: 3rem;
+        font-size: 2.75rem;
         padding: 1.75rem 1rem;
     }
     .contact__container-items{
@@ -65,6 +66,6 @@
         margin: 0;
     }
     .contact__name{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }

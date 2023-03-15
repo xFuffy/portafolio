@@ -9,11 +9,11 @@ html{
 }
 
 body{
-    font-family: "Opens Sans";
+    font-family: 'Open Sans', sans-serif;
 }
 
 section{
-    padding: 1.25rem 0;
+    padding: 2rem;
     text-align: center;
     background: white;
     min-width: 26rem;

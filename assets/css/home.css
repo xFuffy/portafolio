@@ -1,7 +1,7 @@
 .home{
     min-height: 100vh;
     display: flex;
-    padding: 1.5rem 1.5rem 0 1.5rem;
+    padding: 2rem;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -43,9 +43,9 @@
 
 
 /*MEDIA QUERIES*/
-@media screen and (min-width: 768px){
+@media screen and (min-width: 900px){
     .home{
-        padding-top: 3.75rem;
+        padding: 3rem;
     }
     .home__container{
         display: flex;
@@ -56,20 +56,19 @@
         padding: 1rem;
     }
     .home__profile{
-        height: 15rem;
-        margin: 0;
+        height: 55rem;
     }
     .home__text{
         display: flex;
         flex-direction: column;
     }
     .home__introduction{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         text-align: left;
         padding-left: 1.5rem;
     }
     .home__title{
-        font-size: 2rem;
+        font-size: 1.75rem;
         padding: 1rem 0;
     }
     .home__description{
@@ -79,21 +78,25 @@
 }
 
 @media screen and (min-width: 678px) {
+    .home{
+        padding: 2rem;
+    }
     .home__container{
         padding: 3rem;
         justify-content: space-between;
     }
     .home__profile{
-        height: 30rem;
+        padding: 0 1rem;
+        height: 28rem;
     }
     .home__introduction{
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
     .home__title{
-        font-size: 3rem;
+        font-size: 2.75rem;
     }
     .home__description{
         padding-top: 1.25rem;
-        font-size: 2rem;
+        font-size: 1.75rem;
     }
 }

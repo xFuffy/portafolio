@@ -27,14 +27,14 @@
 }   
 
 .navbar__title{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: white;
 }
 
 .navbar__menu{
     display: flex;
     align-items: center;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: white;
 }
 
@@ -103,13 +103,13 @@ a:hover{
         position: inherit;  
         height: 100%;
         flex-direction: row;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
         margin: 0;
         transform: none;
         transition: none;
         opacity: 1;
         width: fit-content;
-        gap: 1rem;
+        gap: 1.5rem;
     }
     .navbar__link{
         display: flex;

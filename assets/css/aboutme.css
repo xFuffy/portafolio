@@ -1,7 +1,7 @@
 .aboutme{
     min-height: 100vh;
     display: flex;
-    padding: 2rem 1.5rem;
+    padding: 2rem;
     justify-content: center;
     text-align: center;
 }
@@ -11,7 +11,7 @@
 }
 
 .aboutme__title{
-    font-size: 2.25rem;
+    font-size: 2rem;
     padding: 1.5rem 0;
     text-align: left;
 }
@@ -21,13 +21,13 @@
 }
 
 .aboutme__description h2{
-    font-size: 1.5rem;
+    font-size: 1.30rem;
     padding: 0 0 1rem 0;
 }
 
 .aboutme__description p{
     padding: 0.75rem 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
     text-align: left;
 }
@@ -55,7 +55,7 @@
 }
 
 .skills__title{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     padding: 1rem 0 2rem 0;
 }
 
@@ -75,60 +75,30 @@
 
 .skills__name{
     padding: 0.5rem 0;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-style: oblique;
 }
 
-.aboutme__hobbies{
-    padding: 1rem 0 0 0;
-    display: block;
-}
-
-.hobbies__title{
-    font-size: 1.5rem;
-    padding: 0.5rem 0 1.5rem 0;
-}
-
-.hobbies__item-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.hobbies__item{
-    padding: 0.5rem 1rem 1.5rem 0;
-}
-
-.item__img{
-    width: 4rem;
-    height: 4rem;
-}
-
-.hobbies__name{
-    padding: 0.5rem 0;
-    font-size: 1.1rem;
-    font-style: oblique;
-}
 
 /*MEDIA QUERIES*/
 
 @media screen and (min-width: 678px){
+    .aboutme{
+        padding: 2rem 4rem;
+    }
     .aboutme__title{
-        font-size: 3rem;
+        font-size: 2.75rem;
         padding: 1.75rem 1rem;
     }
     .aboutme__description{
         padding: 1rem 2rem;
     }
     .aboutme__description h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .aboutme__description p{
         padding: 1rem;
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         line-height: 2rem;
     }
     .aboutme__btn-container{
@@ -141,13 +111,13 @@
         padding: 0;
     }
     .skills__title{
-        font-size: 2.1rem;
+        font-size: 1.9rem;
         padding: 1.5rem 0;
     }
     .skills__item-container{
-        gap: 1rem;
+        gap: 2rem;
     }
     .skills__name{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 }
